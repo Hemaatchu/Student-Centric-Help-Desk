@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered chatbot using Google Gemini API">
+    <title>AI Chatbot - Gemini Powered</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="app-container">
+        <section class="chat-container" role="log" aria-live="polite" aria-label="Chat messages">
+            <article class="ai-chat-box">
+                <img src="images/ai.png" alt="AI Assistant Avatar" id="aiImage" width="10%">
+                <div class="ai-chat-area">
+                    Hello! How can I help you today?
+                </div>
+            </article>
+        </section>
+
+        <section class="prompt-area" role="form" aria-label="Message input">
+            <input
+                type="text"
+                id="prompt"
+                placeholder="Type your message..."
+                aria-label="Message input"
+                autocomplete="off"
+            >
+            <button id="image" aria-label="Upload image" title="Attach image">
+                <img src="images/img.svg" alt="Upload icon">
+                <input type="file" accept="image/*" hidden aria-label="Image file input">
+            </button>
+            <button id="submit" aria-label="Send message" title="Send message">
+                <img src="images/submit.svg" alt="Send icon">
+            </button>
+        </section>
+    </main>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
