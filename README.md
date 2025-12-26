@@ -1,18 +1,25 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Student-Centric Help Desk
+The Student-Centric Help Desk integrates an AI-powered chatbot to assist students by providing instant responses to academic, administrative, and campus-related queries, thereby improving accessibility, efficiency, and overall student support experience.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Student-Centric Help Desk is an intelligent chatbot-based system designed to simplify and automate student support services in educational institutions. Traditional student help desks often rely on manual processes, leading to delays, repetitive queries, and increased workload for administrative staff.
+
+This project addresses these challenges by implementing an AI-driven chatbot that understands natural language queries and provides accurate, real-time responses related to academics, admissions, examinations, fees, hostel facilities, and general campus information. The system offers a user-friendly interface that ensures 24/7 availability and enhances communication between students and institutions.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+AI-powered chatbot for student query handling
+
+Natural Language Processing (NLP) for understanding user inputs
+
+Web-based interactive interface
+
+Faster response time compared to manual help desks
+
+High scalability for handling multiple users simultaneously
+
+Structured chatbot responses using JSON data format
+
+Reduced workload on administrative staff
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
@@ -25,35 +32,52 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+Operating System
+Windows 10 (64-bit) or Ubuntu (64-bit)
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+Development Environment
+HTML, CSS, JavaScript for frontend
+Node.js for backend development
+
+Frameworks & Libraries
+Express.js for server-side handling
+AI API (Gemini / OpenAI) for chatbot intelligence
+
+Version Control
+Git and GitHub for source code management
+IDE
+Visual Studio Code (VS Code)
+
+Additional Dependencies
+Node.js packages (express, cors, fetch / axios)
+API key for AI chatbot service
+
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Chatbot Interface
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1872" height="728" alt="image" src="https://github.com/user-attachments/assets/b995c1d1-83b6-4dd2-81ed-6ae1614d5c80" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+#### Output2 - Query Response System
+<img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/3e070ed8-34a0-4e29-83b6-d7fb71b58e3a" />
+
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Student-Centric Help Desk significantly improves the efficiency of student support systems by providing instant access to information and reducing dependency on manual help desks. The system enhances student satisfaction, ensures 24/7 availability, and promotes effective communication within educational institutions.
+This project demonstrates the practical application of artificial intelligence in education and serves as a scalable foundation for future smart campus solutions.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+Jurafsky, D., & Martin, J. H., Speech and Language Processing, Pearson Education.
+Google Generative AI Documentation – Gemini API
+OpenAI Documentation – Chat Completion APIs
+Express.js Official Documentation
+W3Schools – HTML, CSS, JavaScript Reference
